@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+        <div class="box">
+            <h1 style="color:#846eb3; font-size: 42pt;">15 Puzzle Game</h1>
+            <button id="start"onclick="show()">Start Game</button>
+        <table id="display" border="1px" cellpadding="30px">
+            <tr>
+                <td id="1" onClick="getId(this.id)">8</td>
+                <td id="2" onClick="getId(this.id)">13</td>
+                <td id="3" onClick="getId(this.id)">7</td>
+                <td id="4" onClick="getId(this.id)">4</td>
+            </tr>
+            <tr>
+                <td id="5" onClick="getId(this.id)">6</td>
+                <td id="6" onClick="getId(this.id)">10</td>
+                <td id="7" onClick="getId(this.id)">1</td>
+                <td id="8" onClick="getId(this.id)">3</td>
+            </tr>
+            <tr>
+                <td id="9" onClick="getId(this.id)">11</td>
+                <td id="10" onClick="getId(this.id)">12</td>
+                <td id="11" onClick="getId(this.id)">2</td>
+                <td id="12" onClick="getId(this.id)">14</td>
+            </tr>
+            <tr>
+                <td id="13" onClick="getId(this.id)">5</td>
+                <td id="14" onClick="getId(this.id)">9</td>
+                <td id="15" onClick="getId(this.id)">15</td>
+                <td id="16" onClick="getId(this.id)"> </td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
